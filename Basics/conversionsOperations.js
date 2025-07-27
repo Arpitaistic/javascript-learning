@@ -22,3 +22,18 @@ let someNumber = 33;
 let someNumberString = String (someNumber);
 console.log (someNumberString);
 console.log (typeof someNumberString); //string
+
+
+//OPERATIONS
+let value = 3;
+let negValue = -value;
+console.log(negValue); //-3
+
+let str1 = "Hello"
+let str2 = " Arpita"
+let str3 = str1 + str2; //concatenation
+console.log(str3); //Hello Arpita
+
+let gameCounter = 100;
+gameCounter++; //increment
+console.log (gameCounter); //101
