@@ -30,3 +30,18 @@ let userDetails = {
 const myFuntion = function(){
     console.log("Hello Arpita");
 }
+
+///////Memory in Js
+// Primitives are stored in stack memory, Objects are stored in heap memory and reference is stored in stack memory.
+let myCollegeName = "Arpita";
+let myCompanyName = myCollegeName;
+homeName = "Sneha";
+console.log (myCollegeName);
+console.log (homeName);
+
+let user1 = {
+    email: "abc@google.com",
+    upi: "abc@ybl",
+}
+let user2 = user1; //reference copy
+user2.email = "Arpitaistic@gmail.com"
