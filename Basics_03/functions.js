@@ -25,9 +25,34 @@ const result = addTwoNumbers(5,8);
 
 function loginUserMessage (username = "Klaus"){
     if(username === undefined){
-        console.log("Please enter the username")
+        //console.log("Please enter the username")
         return
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage());
+//console.log(loginUserMessage());
+
+function calculateCartPrice(...num1){
+    return num1
+}
+//console.log(calculateCartPrice(200, 300, 400));
+const user = {
+    username : "Arpita",
+    price: "200"
+
+}
+
+function handleObject(anyobject){
+//console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+//handleObject(user)
+handleObject({
+    username: "Arpita",
+    price: 399,
+})
+
+const myNewArray = [200, 400, 600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray));
