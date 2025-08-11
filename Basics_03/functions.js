@@ -37,7 +37,7 @@ function calculateCartPrice(...num1){
 }
 //console.log(calculateCartPrice(200, 300, 400));
 const user = {
-    username : "Arpita",
+    username : "Elena",
     price: "200"
 
 }
