@@ -1,0 +1,19 @@
+h1{
+    color: "blue";
+    text-decoration: "line-through";
+}
+body{
+    background-color: purple;
+}
+button{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#heading{
+    color: green;
+}
+.heading {
+    color: orange;
+}
